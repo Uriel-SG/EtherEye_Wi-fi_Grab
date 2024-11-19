@@ -1,5 +1,5 @@
 ## EtherEye_Wi-fi_Grab
-A Wi-fi grab script for Windows (10 &amp; 11)
+A Wi-fi grab *one-line* script for Windows (10 &amp; 11)
 
 ![Leonardo_Phoenix_A_stylized_logo_for_EtherEye_WIFI_GRAB_a_comp_1](https://github.com/user-attachments/assets/953fa6e8-6306-40e4-a4fa-8bb71bd032ec)
 
@@ -14,7 +14,7 @@ A Wi-fi grab script for Windows (10 &amp; 11)
 # Execution Vectors
 ## Shell Injection Modes
 
-- Direct shell execution on target Windows system
+- Direct shell execution on target Windows system (only one line)
 - Delivery via .bat or .exe file formats
 - (Bad) USB vector (Attiny85) using the .ino file 
 
