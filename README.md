@@ -27,4 +27,4 @@ This tool is released exclusively for:
 - *Certified Ethical Hackers*
 - *Authorized Security Exercises*
 
-***Like all security testing tools, WaveHarvest must only be used on systems and networks for which you have explicit written authorization. Improper use of this tool may violate local and international laws.***
+***Like all security testing tools, EtherEye must only be used on systems and networks for which you have explicit written authorization. Improper use of this tool may violate local and international laws.***
